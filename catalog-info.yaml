@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: jen-testing
+  title: Jen testing
+  description: test
+  annotations:
+    github.com/project-slug: bcgov/Jen-test-may-15-2024
+    backstage.io/techdocs-ref: dir:.
+    developer.gov.bc.ca/source_template: default/docs-template
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: group:bcgov/developer-experience
